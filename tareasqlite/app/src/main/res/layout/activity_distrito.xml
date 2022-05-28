@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/man"
+    android:orientation="vertical"
+    tools:context=".Distrito">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CODIGO DISTRITO"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:fontFamily="@font/aldrich" />
+
+    <EditText
+        android:id="@+id/txtcoddis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:fontFamily="@font/aldrich" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOMBRE DISTRITO"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:fontFamily="@font/aldrich" />
+
+    <EditText
+        android:id="@+id/txtnomdis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:fontFamily="@font/aldrich" />
+
+    <Button
+        android:id="@+id/bIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ingresar"
+        android:text="INGRESAR"
+        app:fontFamily="@font/aldrich" />
+
+    <Button
+        android:id="@+id/bModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="modificar"
+        android:text="MODIFICAR"
+        app:fontFamily="@font/aldrich" />
+
+    <Button
+        android:id="@+id/bEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eliminar"
+        android:text="ELIMINAR"
+        app:fontFamily="@font/aldrich" />
+
+    <Button
+        android:id="@+id/bConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consultar"
+        android:text="CONSULTAR"
+        app:fontFamily="@font/aldrich" />
+</LinearLayout>
